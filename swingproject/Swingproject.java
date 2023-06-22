@@ -214,8 +214,8 @@ class MyFrame extends JFrame implements ActionListener {
         tout.setSize(350, 300);
         tout.setLocation(550, 100);
         
-      //  tout.setLineWrap(true);
-       //tout.setEditable(false);
+       tout.setLineWrap(true);
+       tout.setEditable(false);
         c.add(tout);
  
         res = new JLabel("");
